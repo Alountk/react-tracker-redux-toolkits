@@ -1,8 +1,9 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
-  entry: "./app/index.jsx",
+  entry: "./app/index.tsx",
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "index_bundle.js",
